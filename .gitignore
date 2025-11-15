@@ -1,13 +1,9 @@
 # Python cache
 __pycache__/
 *.pyc
-*.pyo
-*.pyd
 
 # Virtual environments
 venv/
-env/
-.venv/
 
 # Chroma database folder
 chroma_db/
@@ -19,11 +15,6 @@ chroma_db/
 Thumbs.db
 desktop.ini
 
-# Python egg info
-*.egg-info/
-
-# Logs
-*.log
 
 # Environment variables
 .env
