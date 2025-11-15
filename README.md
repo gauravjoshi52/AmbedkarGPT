@@ -33,16 +33,21 @@ AmbedkarGPT/
 |--- speech.txt           # Dr. Ambedkar's speech
 |--- README.md             # This file
 
+
 Installation & Setup:
 Prerequisites-
 Install Python 3.8+ from python.org
 
 
+
 Install Ollama from ollama.ai :
 Step-by-Step Setup-
 
+
 Install Ollama and Download Mistral 7B:
+
 # Download Ollama from https://ollama.ai/
+
 # Then run in cmd:
 ollama pull mistral
 
@@ -66,7 +71,7 @@ Example Questions:
 
 "What is compared to a gardener in the speech?"
 
-Exit the Application by typing quit, exit, or q
+Exit the Application by typing quit.
 
 
 How It Works:
@@ -81,6 +86,8 @@ Create Embeddings: Generates vector representations using HuggingFace models
 Store Vectors: Saves embeddings in ChromaDB for fast retrieval
 
 Retrieve & Answer: Finds relevant text chunks and generates answers using Mistral 7B
+
+<img width="1454" height="624" alt="Screenshot 2025-11-16 005613" src="https://github.com/user-attachments/assets/aaddcdcd-6e4f-4d1f-adea-797c8ac1c1ab" />
 
 Notes:
 The system answers questions based only on the provided speech text.
